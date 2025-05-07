@@ -1,0 +1,80 @@
+/* General page syileing*/
+body{
+    margin: 20px;
+    background-color:powderblue;
+    line-height: 1.5;
+}
+/*main content wrapper*/
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color:white;
+    padding: 20px;
+    border: 10px groove darkblue;
+}
+/*header section*/
+#article-header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#article-header h1{
+    font-size: 2.5em;
+    color: cadetblue;
+}
+#article-header p{
+    font-size: 1.1em;
+    color: peru;
+}
+/*paragraphs*/
+.article-text{
+    font-size: 1.1em;
+    color: cornflowerblue;
+    margin-bottom: 1em;
+    line-height: 1.7;
+}
+/*section headings*/
+.section-heading{
+    color: indigo;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    border-bottom: 1px solid royalblue;
+    padding-bottom: 5px;
+    text-align: left;
+}
+/*Floating Images*/
+img{
+    max-width: 30%;
+    height: auto;
+    margin: 10px;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+/* clear divto stop float wrap*/
+.clear{
+    clear: both;
+}
+/*aside*/
+#about-author{
+    background-color: dodgerblue;
+    padding: 15px;
+    margin-top: 20px;
+    border-left: 5px solid skyblue;
+    font-size: 0.9em;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: mediumaquamarine;
+    color: rgb(90, 97, 202);
+}
+/* the stuff you cant see
+about the author
+shimmy shimmy eh shimmy eahh shimmy yahhh drake swaaa la la la
+
+© 2025 My Sigma blog */
